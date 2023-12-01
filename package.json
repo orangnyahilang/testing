@@ -1,7 +1,7 @@
 {
   "name": "portfoliosani",
   "version": "0.1.0",
-  "homepage": "https://orangnyahilang.github.io/myportfolio",
+  "homepage": "https://orangnyahilang.github.io/testing",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "3.4",

@@ -42,3 +42,50 @@
     gap: 1rem;
   }
 }
+
+
+/* modal.css */
+
+/* Style for the overlay background */
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent; /* Adjust the opacity as needed */
+  backdrop-filter: blur(4px); /* Adjust the blur strength as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the modal itself */
+.ReactModal__Content {
+  position: relative;
+  outline: none;
+  background-color: #fff; /* Background color of the modal */
+  padding: 20px;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  width: 100%;
+  color: #000;
+  margin: auto;
+  border-radius: 8px;
+}
+
+/* Custom close button style */
+.closeButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #333; /* Close button color */
+}
+
+/* Close button hover effect */
+.closeButton:hover {
+  color: #ff0000; /* Change the color on hover */
+}

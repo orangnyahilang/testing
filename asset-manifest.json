@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/testing/static/css/main.224bbcd5.css",
-    "main.js": "/testing/static/js/main.84f07490.js",
+    "main.css": "/testing/static/css/main.a996802a.css",
+    "main.js": "/testing/static/js/main.0ae212f4.js",
     "static/js/787.a48f37f9.chunk.js": "/testing/static/js/787.a48f37f9.chunk.js",
+    "static/media/untagsbylogo.jpg": "/testing/static/media/untagsbylogo.76ba9fc77eac06de26e2.jpg",
     "static/media/me.png": "/testing/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/web3.png": "/testing/static/media/web3.bf9a9d2eb00b6d781643.png",
     "static/media/fa-solid-900.ttf": "/testing/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
@@ -13,16 +14,17 @@
     "static/media/fa-regular-400.ttf": "/testing/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
     "static/media/fa-regular-400.woff2": "/testing/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
     "static/media/profile.jpg": "/testing/static/media/profile.b35a3775d609f8396f3a.jpg",
+    "static/media/smpn1durenan.jpg": "/testing/static/media/smpn1durenan.c1feb77087d2e019445e.jpg",
     "static/media/fa-v4compatibility.ttf": "/testing/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/testing/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/testing/index.html",
     "static/media/cv.pdf": "/testing/static/media/cv.31d6cfe0d16ae931b73c.pdf",
-    "main.224bbcd5.css.map": "/testing/static/css/main.224bbcd5.css.map",
-    "main.84f07490.js.map": "/testing/static/js/main.84f07490.js.map",
+    "main.a996802a.css.map": "/testing/static/css/main.a996802a.css.map",
+    "main.0ae212f4.js.map": "/testing/static/js/main.0ae212f4.js.map",
     "787.a48f37f9.chunk.js.map": "/testing/static/js/787.a48f37f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.224bbcd5.css",
-    "static/js/main.84f07490.js"
+    "static/css/main.a996802a.css",
+    "static/js/main.0ae212f4.js"
   ]
 }

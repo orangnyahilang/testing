@@ -1,0 +1,50 @@
+/* ScrollButton.css */
+
+.scroll-button {
+    position: absolute;
+    bottom: 80px;
+    left: 34%;
+    transform: translateX(-50%);
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    animation: bounce 1s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(10px);
+    }
+    60% {
+      transform: translateY(5px);
+    }
+  }
+  
+
+
+  .scroll-button2 {
+    position: absolute;
+    bottom: 92px;
+    left: 34.7%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    animation: bounce2 1s infinite;
+  }
+  
+  @keyframes bounce2 {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(10px);
+    }
+    60% {
+      transform: translateY(5px);
+    }
+  }
+  

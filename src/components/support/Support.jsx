@@ -1,7 +1,7 @@
 import { Component } from "react";
-import "./pendidikan.css";
+import "./support.css";
 
-class Pendidikan extends Component {
+class Support extends Component {
   render() {
     return (
       <section id="testimonials">
@@ -61,4 +61,4 @@ class Pendidikan extends Component {
   }
 }
 
-export default Pendidikan;
+export default Support;

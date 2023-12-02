@@ -40,3 +40,32 @@
     width: var(--container--width-sm);
   }
 }
+
+
+
+
+.custom-button-prev,
+.custom-button-next {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 60%;
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+  color: var(--color-primary);
+  cursor: pointer;
+  z-index: 5;
+}
+
+.custom-button-prev:hover,
+.custom-button-next:hover {
+  font-size: 32px;
+}
+
+.custom-button-prev {
+  left: 35px;
+}
+
+.custom-button-next {
+  right: 35px;
+}

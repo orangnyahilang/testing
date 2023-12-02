@@ -13,14 +13,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    title: "Development of High School Academic Information Systems (SIAKAD)",
     github: "https://github.com/inextdeve",
     demo: "https://inext.dev"
   },
   {
     id: 2,
     image: IMG2,
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    title: "Onboarding Flows",
     github: "https://github.com/inextdeve",
     demo: "https://inext.dev"
   },

@@ -9,7 +9,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import Pendidikan from "./components/pendidikan/Pendidikan";
+import Support from "./components/support/Support.jsx";
 
 class Application extends Component {
   render() {
@@ -32,7 +32,7 @@ class Application extends Component {
           <Portfolio />
         </AnimatedComponent>
         <AnimatedComponent direction="up">
-          <Pendidikan />
+          <Support />
         </AnimatedComponent>
         <AnimatedComponent direction="left">
           <Testimonials />

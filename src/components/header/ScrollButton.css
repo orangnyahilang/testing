@@ -2,8 +2,6 @@
 
 .scroll-button {
     position: absolute;
-    bottom: 80px;
-    left: 34%;
     transform: translateX(-50%);
     font-size: 1.3rem;
     color: #fff;
@@ -14,37 +12,43 @@
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
+      color: wheat;
     }
     40% {
       transform: translateY(10px);
+      color: rgb(255, 98, 98);
     }
     60% {
       transform: translateY(5px);
+      color: wheat;
     }
   }
   
-
-
   .scroll-button2 {
     position: absolute;
-    bottom: 92px;
-    left: 34.7%;
+    padding-top: 10px;
     transform: translateX(-50%);
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
-    animation: bounce2 1s infinite;
+    animation: bounce 1s infinite;
   }
   
   @keyframes bounce2 {
     0%, 20%, 50%, 80%, 100% {
       transform: translateY(0);
+      color: wheat;
     }
     40% {
       transform: translateY(10px);
+      color: rgb(255, 98, 98);
     }
     60% {
       transform: translateY(5px);
+      color: wheat;
     }
   }
+  
+
+  
   

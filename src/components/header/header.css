@@ -1,7 +1,8 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 3rem;
   overflow: hidden;
+  padding-bottom: 1.5rem;
 }
 .header__container {
   text-align: center;
@@ -34,15 +35,11 @@ header {
 }
 /* ================= ME ================== */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
+  background: linear-gradient(var(--color-primary), transparent 60%);
+  height: 100vh;
+  position: relative;
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 /* ================= SCROLL DOWN ======= */
 .scroll__down {
@@ -56,9 +53,17 @@ header {
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 601px) {
   header {
-    height: 68vh;
+    height: 100vh;
+  }
+  .me {
+    display: none;
+  }
+  .pc {
+    display: block;
+    position: relative;
+    top: 20%;
   }
 }
 /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
@@ -70,16 +75,22 @@ header {
   .scroll__down {
     display: none;
   }
+  .pc {
+    display: none;
+  }
 }
 
+@media screen and (max-width: 320px) {
+  header {
+    height: 100vh;
+  }
+  .pc {
+    display: none;
+  }
+}
 
 .bglp {
-  position: relative;
-  bottom: 100px;
-  height: 300px;
 }
 
 .txtlp {
-  position: relative;
-  bottom: 100px;
 }

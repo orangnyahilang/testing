@@ -14,10 +14,16 @@ class Header extends Component {
           <h1>iNext Dev</h1>
           <div className="text-light">Fullstack Developer</div>
           <CTA />
+          <div className="pc">
+          <h3 className="txtlp">Scroll untuk melihat Portfolio</h3>
+          <ScrollButton />
+          </div>
           <div className="me">
+
             <img src={ME} className="bglp" alt="ME" />
-            <h3 className="txtlp">Scroll untuk melihat Portfolio Saya</h3>
+            <h3 className="txtlp">Scroll untuk melihat Portfolio</h3>
             <ScrollButton />
+
           </div>
           <a href="#contact" className="scroll__down">
             Scroll Down

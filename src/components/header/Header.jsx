@@ -4,14 +4,15 @@ import ME from "../../assets/lp3.png";
 import HeaderSocials from "./HeaderSocials";
 import "./header.css";
 import ScrollButton from "./ScrollButton";
+import TypingAnimation from "./TypingAnimation";
 
 class Header extends Component {
   render() {
     return (
       <header>
         <div className="container header__container">
-          <h5>Hello I'm</h5>
-          <h1>iNext Dev</h1>
+          <h5 className="judulatas">Hello..</h5>
+          <div className="typani"><TypingAnimation/></div>
           <div className="text-light">Fullstack Developer</div>
           <CTA />
           <div className="pc">

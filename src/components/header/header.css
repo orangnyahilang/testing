@@ -2,12 +2,12 @@ header {
   height: 100vh;
   padding-top: 3rem;
   overflow: hidden;
-  padding-bottom: 1.5rem;
 }
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
+  padding-bottom: 1.5rem;
 }
 /* ================= CTA ===================== */
 .cta {
@@ -49,6 +49,15 @@ header {
   transform: rotateZ(90deg);
   font-weight: 200;
   font-size: 0.9rem;
+}
+.judulatas {
+  color: rgb(0, 149, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.typani {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */

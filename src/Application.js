@@ -12,19 +12,42 @@ import Footer from "./components/footer/Footer";
 import Support from "./components/support/Support.jsx";
 
 class Application extends Component {
+  constructor() {
+    super();
+    this.state = { showNav: false };
+  }
+
+  handleScroll = () => {
+    const headerHeight = 100;
+
+    if (window.scrollY > headerHeight) {
+      this.setState({ showNav: true });
+    } else {
+      this.setState({ showNav: false });
+    }
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
   render() {
     return (
       <>
-          <Header />
-          {/* <Nav/>         */}
-          <About />
-          <Experience />
-          <Services />
-          <Portfolio />
-          <Support />
-          <Testimonials />
-          <Contact />
-          <Footer />
+        <Header />
+        <Nav showNav={this.state.showNav} />
+        <About />
+        <Experience />
+        <Services />
+        <Portfolio />
+        <Support />
+        <Testimonials />
+        <Contact />
+        <Footer />
       </>
     );
   }

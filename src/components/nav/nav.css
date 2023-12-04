@@ -1,3 +1,25 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    bottom: -4rem;
+  }
+  to {
+    opacity: 1;
+    bottom: 2rem;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    bottom: 2rem;
+  }
+  to {
+    opacity: 0;
+    bottom: -4rem;
+  }
+}
+
 nav {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
@@ -11,7 +33,20 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  
 }
+
+nav.show {
+  opacity: 1;
+  animation: fadeIn 0.3s ease;
+}
+
+nav.hide {
+  animation: fadeOut 0.3s ease;
+}
+
 nav a {
   background: transparent;
   padding: 0.8rem;
@@ -20,9 +55,11 @@ nav a {
   color: var(--color-light);
   font-size: 1.1rem;
 }
+
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
+
 nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
